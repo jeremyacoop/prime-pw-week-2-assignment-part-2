@@ -130,7 +130,7 @@ if (number >= 2) {
 
 //4. We start with three variables -- colorOne is set to 'blue' and
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
-// -- it is, so we set colorOne and colorTwo to 'purple'
+// -- it is, so we set colorOne and colorTwo to 'purple'.
 
 /*
 let colorOne = 'red';
@@ -139,6 +139,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+   // FIX - colorTwo should also be set to 'purple'
 }
 */
 
@@ -148,6 +149,8 @@ if (mix === true) {
 
 /*
 let temp = 40;
+   // FIX - time should be declared with let, not const, since its value should
+   // not be constant.
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -163,6 +166,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+   //FIX - In the if statement, minAge and age should be in reverse order, since
+   // minAge is the constant value against which age is being checked.
 if(minAge <= age) {
   console.log('no entry');
 } else {

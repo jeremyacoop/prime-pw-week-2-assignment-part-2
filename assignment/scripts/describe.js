@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // as a number. Then we check whether the value of code is 123 or greater than 250.
 // If code's value is 123, secret will be set to 'super' as a string and the value of code
 // will be doubled to 246. If code's value is greater than 250, secret's value is set to 'duper'.
-// Then we console.log the value of secret.
+// Then we console.log the value of secret, in this case 'super'.
 
 //CODE
 /*
@@ -135,6 +135,7 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+// FIX - colorOne should be 'blue' and colorTwo 'red'
 let mix = true;
 
 if (mix === true) {

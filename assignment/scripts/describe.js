@@ -154,6 +154,7 @@ let temp = 40;
    // not be constant.
 const time = 4;
 
+// FIX - || should be &&, since both conditions would need to be true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -168,7 +169,8 @@ let age = 21;
 const minAge = 21;
 
    //FIX - In the if statement, minAge and age should be in reverse order, since
-   // minAge is the constant value against which age is being checked.
+   // minAge is the constant value against which age is being checked. The 1st line 
+   // should read if (age < minAge).
 if(minAge <= age) {
   console.log('no entry');
 } else {
